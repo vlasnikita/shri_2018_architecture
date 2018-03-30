@@ -1,0 +1,30 @@
+{
+  "name": "shri-homework-architecture",
+  "version": "1.0.0",
+  "description": "Задание по архитектуре для ШРИ-2018",
+  "main": "sendToServer.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laete/shri-architecture.git"
+  },
+  "author": "vlasnikita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laete/shri-architecture/issues"
+  },
+  "homepage": "https://github.com/Laete/shri-architecture#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
